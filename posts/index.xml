@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on BigEatie&#39;s Blog</title>
-    <link>https://bigeatie.com/</link>
-    <description>Recent content in Home on BigEatie&#39;s Blog</description>
+    <title>Posts on BigEatie&#39;s Blog</title>
+    <link>https://bigeatie.com/posts/</link>
+    <description>Recent content in Posts on BigEatie&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bigeatie.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bigeatie.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Filtering of Chess Databases with pgn-extract</title>
       <link>https://bigeatie.com/posts/pgn-extract/</link>
