@@ -4,6 +4,7 @@ export siteName="BigEatie"
 
 echo "Building new site: $siteName"
 hugo new site "../$siteName"
+pwd
 echo "Removing initial toml config"
 rm -v "../$siteName/hugo.toml"
 echo "Copying over my toml config"
