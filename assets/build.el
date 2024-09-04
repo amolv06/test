@@ -18,6 +18,8 @@
 				default-directory
 				site-name))
 (dolist (file (cddr (directory-files ".")))
+  (message (format "Building %s...."
+		   file))
   (with-current-buffer (find-file file)
     (org-hugo-export-wim-to-md)))
 
