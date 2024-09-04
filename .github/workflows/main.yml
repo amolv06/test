@@ -15,7 +15,7 @@ jobs:
       - name: Install Emacs
         uses: purcell/setup-emacs@master
         with:
-          version: 27.2
+          version: 29.2
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
