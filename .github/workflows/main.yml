@@ -17,6 +17,12 @@ jobs:
         with:
           version: 27.2
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.119.0'
+          # extended: true
+
       - name: Build the site
         run: ./assets/build.sh
 
