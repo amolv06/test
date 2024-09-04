@@ -1,7 +1,7 @@
 #+TITLE: A Test Post
 #+hugo_base_dir: ../
 #+hugo_tags: chess
-#+DATE: <2024-09-05 Thu>
+#+DATE: <2024-09-03 Thu>
 
 * This is just a test post
 
