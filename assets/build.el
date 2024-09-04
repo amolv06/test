@@ -23,4 +23,5 @@
   (with-current-buffer (find-file file)
     (org-hugo-export-wim-to-md)))
 
+(message (format "%s" (directory-files "./../BigEatie/content")))
     
