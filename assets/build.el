@@ -14,9 +14,8 @@
 (require 'ox-hugo)
 
 (setq site-name (getenv "siteName"))
-(message (format "site-name is: %s" site-name))
-(setq default-directory (format "%s%s/content-org/"
-				(file-name-parent-directory default-directory)
+(setq default-directory (format "%s../%s/content-org/"
+				default-directory
 				site-name))
 (dolist (file (cddr (directory-files ".")))
   (with-current-buffer (find-file file)
